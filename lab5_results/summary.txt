@@ -1,0 +1,4 @@
+=== RESUMEN DEL SISTEMA ===
+- Tiempo de arranque:  19.309s 
+- CPU idle: 2,3%
+- RAM libre: 2565 MB

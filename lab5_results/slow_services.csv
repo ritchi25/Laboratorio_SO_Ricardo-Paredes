@@ -1,0 +1,6 @@
+Tiempo,Servicio
+7.196s,plymouth-quit-wait.service
+4.297s,snapd.seeded.service
+4.136s,snapd.service
+2.305s,NetworkManager.service
+2.023s,fwupd-refresh.service

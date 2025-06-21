@@ -1,0 +1,12 @@
+
+=== RESUMEN DE OPTIMIZACIÓN ===
+Servicios deshabilitados:
+- bluetooth
+- cups
+- avahi-daemon
+- ModemManager
+- fwupd
+
+Tiempo GRUB: 3s
+Animaciones desactivadas: Sí
+Iconos de escritorio ocultos: Sí

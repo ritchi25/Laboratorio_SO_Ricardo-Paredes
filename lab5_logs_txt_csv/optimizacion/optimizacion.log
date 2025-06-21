@@ -1,0 +1,52 @@
+===== MEDICIÓN PRE-OPTIMIZACIÓN [vie 20 jun 2025 21:54:30 -03] =====
+---- Tiempo de arranque ----
+Startup finished in 5.816s (kernel) + 13.493s (userspace) = 19.309s 
+graphical.target reached after 13.442s in userspace.
+
+---- Uso de recursos ----
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:            5924        2280        3229         108         756        3644
+Inter:          4095           0        4095
+
+---- Servicios activos ----
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  auditd.service                loaded active running Security Auditing Service
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  cron.service                  loaded active running Regular background program processing daemon
+
+===== OPTIMIZACIÓN DE SERVICIOS =====
+
+===== OPTIMIZACIÓN DE GRUB =====
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.11.0-26-generic
+Found initrd image: /boot/initrd.img-6.11.0-26-generic
+Found memtest86+x64 image: /boot/memtest86+x64.bin
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+
+===== OPTIMIZACIÓN DE MEMORIA =====
+vm.drop_caches = 3
+
+===== OPTIMIZACIÓN DE INTERFAZ =====
+
+===== MEDICIÓN POST-OPTIMIZACIÓN [vie 20 jun 2025 21:54:32 -03] =====
+---- Tiempo de arranque ----
+Startup finished in 5.816s (kernel) + 13.493s (userspace) = 19.309s 
+graphical.target reached after 13.442s in userspace.
+
+---- Uso de recursos ----
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:            5924        2300        3250         108         714        3624
+Inter:          4095           0        4095
+
+---- Servicios activos ----
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  auditd.service                loaded active running Security Auditing Service
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  cron.service                  loaded active running Regular background program processing daemon

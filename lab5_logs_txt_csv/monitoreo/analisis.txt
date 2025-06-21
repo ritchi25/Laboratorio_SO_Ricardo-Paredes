@@ -1,0 +1,5 @@
+Resumen de Monitoreo (24h)
+==========================
+- Pico máximo de CPU: 1%
+- Memoria mínima libre: 3278 MB
+- Proceso más intensivo: ps               100
